@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Alinhamento vertical com altura 100%</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}	
+
+		.container {
+			margin: 0 auto;
+			height: 100vh;
+			background-color: #25292C;
+			text-align: center;
+			color: #fff;
+		}
+
+		.vertical-align {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}					
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="vertical-align">
+			<h1>Alinhamento vertical com altura 100%</h1>
+			<p>Utilizando a propriedade transform</p>
+		</div>
+	</div>
+	
+</body>
+</html>

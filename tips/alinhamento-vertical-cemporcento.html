@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Alinhamento vertical com altura 100%</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		html,body{
+		    height: 100%;
+		    width: 100%;
+		}	
+
+		.container {
+		    display: table;
+		    height: 100%;
+		    width: 100%;
+		    background: #25292C;
+		    color: #fff;
+		}		
+
+		.box {
+		    display: table-cell;
+		    vertical-align: middle;
+		    text-align: center;
+		}					
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="box">
+			<h1>Alinhamento vertical com altura 100%</h1>
+			<p>Utilizando as propriedadee display table + table-cell</p>
+		</div>
+	</div>
+	
+</body>
+</html>
