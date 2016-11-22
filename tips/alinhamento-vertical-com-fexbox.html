@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Alinhamento Vertical com Flexbox</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		html, body {
+  			height: 100%;
+		}		
+
+		.container {
+			display: flex;
+  			align-items: center;			
+			height: 100%;
+			color: #fff;
+		}
+
+		.secao1 {
+			background-color: #422A67;
+		}
+
+		.secao2 {
+			background-color: #793896;
+		}
+
+		.secao3 {
+			background-color: #ce7dca;
+		}	
+
+		.box-txt {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		h1 {
+			font: 50px 'Arial';
+			text-transform: uppercase;
+		}
+
+		small {
+			font: 14px 'Arial';
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container secao1">
+		<div class="box-txt">
+			<h1>Alinhamento vertical com flexbox</h1>
+			<small>Essa eh a seção 1</small>		
+		</div>	
+	</div>
+
+	<div class="container secao2">	
+		<div class="box-txt">
+			<h1>Alinhamento vertical com flexbox</h1>
+			<small>Essa eh a seção 2</small>		
+		</div>	
+	</div>
+
+	<div class="container secao3">	
+		<div class="box-txt">
+			<h1>Alinhamento vertical com flexbox</h1>
+			<small>Essa eh a seção 3</small>		
+		</div>	
+	</div>			
+	
+</body>
+</html>
