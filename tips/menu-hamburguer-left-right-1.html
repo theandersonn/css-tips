@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<title>Menu Hamburguer left -> right</title>
+
+	<style>
+		* { 
+			margin: 0; 
+			padding: 0; 
+		}
+
+		header { 
+			background: #333; 
+			color: #fff; 
+			padding: 20px; 
+			position: relative; 
+		}
+
+		.site-title { 
+			margin-left: 100px; 
+			font-size: 1rem; 
+		}
+
+		.nav-toggle { 
+			position: absolute; 
+			top: 20px; 
+			right: 10px; 
+			cursor: pointer; 
+		}
+
+		a { 
+			color: #fff; 
+			text-decoration: none; 
+		}
+
+		nav li { 
+			list-style: none; 
+		}
+
+		.main-navigation { 
+			margin-top: 60px; 
+			position: fixed; 
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 100%; 
+			text-align: left; 
+			transform: 
+			translateX(-100%); 
+			transition: transform 0.6s ease; 
+		}
+
+		.main-navigation.open { 
+			transform: translateX(0); 
+		}
+
+		.main-navigation .nav-toggle { 
+			right: 5%; 
+			top: 5%; 
+		}
+
+		.main-navigation ul { 
+			max-width: 360px; 
+			width: 70%; 
+			background: #222; 
+			height: 100%; 
+		}
+
+		.main-navigation ul a { 
+			padding: 10px 20px; 
+			display: block; 
+		}
+
+		.main-navigation ul a:hover { 
+			background: #333; 
+		}
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1 class="site-title">Site Name</h1>
+		<i class="fa fa-bars nav-toggle"></i>
+		<nav class="main-navigation" role="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Clients</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+		
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus incidunt doloremque ad fugiat culpa ullam commodi voluptatem nesciunt. Voluptatum eligendi quidem dicta dolore delectus ducimus, veniam omnis? Culpa, quaerat, consequatur!
+		</p>
+
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus incidunt doloremque ad fugiat culpa ullam commodi voluptatem nesciunt. Voluptatum eligendi quidem dicta dolore delectus ducimus, veniam omnis? Culpa, quaerat, consequatur!	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id, pariatur! Soluta delectus nisi magni hic cum id, consequuntur accusantium amet ea facilis incidunt corporis architecto vitae assumenda, aspernatur eius.
+		</p>
+
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus incidunt doloremque ad fugiat culpa ullam commodi voluptatem nesciunt. Voluptatum eligendi quidem dicta dolore delectus ducimus, veniam omnis? Culpa, quaerat, consequatur!	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id, pariatur! Soluta delectus nisi magni hic cum id, consequuntur accusantium amet ea facilis incidunt corporis architecto vitae assumenda, aspernatur eius.
+		</p>				
+		
+	</main>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.nav-toggle, .main-navigation').on('click', function(){
+				$('.main-navigation').toggleClass('open');
+			});
+		});
+	</script>
+
+</body>
+</html>
