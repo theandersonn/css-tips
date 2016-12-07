@@ -18,3 +18,4 @@
 
 ### Footer
 - [Footer sempre bottom 1](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-1.html)
+- [Footer sempre bottom 2](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-2.html)
