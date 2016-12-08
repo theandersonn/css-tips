@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Progress Bar 1</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 100%;
+			margin-top: 50px;
+		}
+
+		.progressbar {
+			counter-reset: step;
+		}
+
+		.progressbar .item {
+			position: relative;
+			float: left;
+			width: 33.33%;
+			list-style: none;
+			text-align: center;
+		}
+
+		.progressbar .item:before {
+			content: counter(step);
+			counter-increment: step;
+			display: block;
+			width: 30px;
+			height: 30px;
+			margin: 0 auto 10px auto;
+			border: 1px solid #ddd;
+			border-radius: 50%;
+			background-color: #fff;
+			text-align: center;
+			line-height: 30px;
+		}
+
+		.progressbar .item:after {
+			content: '';
+			position: absolute;
+			/*width: 80%;*/
+			width: 100%;
+			height: 1px;
+			top: 15px;
+			/*left: -40%;*/
+			left: -50%;
+			z-index: -1;
+			background-color: #ddd;
+		}
+
+		.progressbar .item:first-child:after {
+			content: none;
+		}
+
+		.progressbar .item.active {
+			color: green;
+		}
+
+		.progressbar .item.active:before {
+			border-color: green; 
+		}
+
+		.progressbar .item.active + .item:after {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	
+	<!--
+	Step progress bar Tutorial, CSS
+	https://www.youtube.com/watch?v=DYevj6UGNWA
+	-->
+
+	<div class="container">
+		<ul class="progressbar">
+			<li class="item active">Step 1</li>
+			<li class="item">Step 2</li>
+			<li class="item">Step 3</li>
+		</ul>
+	</div>
+
+</body>
+</html>
