@@ -19,6 +19,9 @@
 ### Progress Bar
 - [Progress Bar 1](https://github.com/theandersonn/css-tips/blob/master/tips/progress-bar-1.html)
 
+### Underline Animado
+- [Underline Animado 1](https://github.com/theandersonn/css-tips/blob/master/tips/underline-animado-1.html)
+
 ### Footer
 - [Footer sempre bottom 1](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-1.html)
 - [Footer sempre bottom 2](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-2.html)

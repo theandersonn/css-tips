@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animating link underlines</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: gray;
+	}
+
+	ul {
+		list-style: none;
+		margin-top: 15px;
+	}
+
+	ul li {
+		display: inline-block;
+		margin-left: 15px; 
+	}
+
+	.link {
+		position: relative;
+		text-decoration: none;
+		color: white;
+	} 	
+
+	.link:hover {
+		color: white;
+	}
+
+	.link:after {
+    	display: block;
+    	position: absolute;
+    	left: 0;
+    	bottom: -3px;
+    	width: 0;
+    	height: 1px;
+    	background-color: white;
+    	content: "";
+    	transition: width 0.2s ease 0s;		
+	}
+
+  .link:hover::after {
+    width: 100%;
+  }			
+	</style>
+</head>
+<body>
+
+<ul>
+	<li><a class="link" href="javascript:;">link 1</a></li>
+	<li><a class="link" href="javascript:;">link 2</a></li>
+	<li><a class="link" href="javascript:;">link 3</a></li>
+	<li><a class="link" href="javascript:;">link 4</a></li>
+	<li><a class="link" href="javascript:;">link 5</a></li>
+</ul>
+	
+</body>
+</html>
