@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Efeito flip</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		/* entire container, keeps perspective */
+		.flip-container {
+			perspective: 1000px;
+		}
+			/* flip the pane when hovered */
+			.flip-container:hover .flipper, .flip-container.hover .flipper {
+				transform: rotateY(180deg);
+			}
+
+		.flip-container, .front, .back {
+			width: 320px;
+			height: 480px;
+		}
+
+		/* flip speed goes here */
+		.flipper {
+			transition: 0.6s;
+			transform-style: preserve-3d;
+
+			position: relative;
+		}
+
+		/* hide back of pane during swap */
+		.front, .back {
+			backface-visibility: hidden;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		/* front pane, placed above back */
+		.front {
+			z-index: 2;
+			/* for firefox 31 */
+			transform: rotateY(0deg);
+		}
+
+		/* back, initially hidden pane */
+		.back {
+			transform: rotateY(180deg);
+		}
+
+		.caixa-red {
+			background-color: red;
+			padding-bottom: 480px;
+		}
+
+		.caixa-blue {
+			background-color: blue;
+			padding-bottom: 480px;
+		}				
+	</style>
+</head>
+<body>
+	<!--  ##########################################
+		Referência: https://davidwalsh.name/css-flip 
+	############################################# -->
+
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<div class="caixa-red">
+					&nbsp;
+				</div>
+			</div>
+			<div class="back">
+				<div class="caixa-blue">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

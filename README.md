@@ -13,6 +13,9 @@
 ### Círculos
 - [Círculos](https://github.com/theandersonn/css-tips/blob/master/tips/circulos.html)
 
+### Flip Image
+- [Flip Image](https://github.com/theandersonn/css-tips/blob/master/tips/flip-image.html)
+
 ### Menu(s)
 - [Barra com menu hamburguer left -> right](https://github.com/theandersonn/css-tips/blob/master/tips/menu-hamburguer-left-right-1.html)
 
