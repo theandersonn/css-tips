@@ -5,7 +5,7 @@
 - [Alinhamento vertical com altura 100% - display table + table-cell](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-cemporcento.html)
 - [Alinhamento vertical com altura 100% - transform](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-cemporcento-2.html)
 - [Alinhamento vertical com altura fixa](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-fixo.html)
-- [Alinhamento vertical com Flexbo ](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-com-fexbox.html)
+- [Alinhamento vertical com Flexbox](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-com-fexbox.html)
 
 ### Arrow(s)
 - [Arrow Down](https://github.com/theandersonn/css-tips/blob/master/tips/arrow-down.html)
@@ -15,6 +15,9 @@
 
 ### Flip Image
 - [Flip Image](https://github.com/theandersonn/css-tips/blob/master/tips/flip-image.html)
+
+### Logo centralizada
+- [Logo centralizada]()
 
 ### Menu(s)
 - [Barra com menu hamburguer left -> right](https://github.com/theandersonn/css-tips/blob/master/tips/menu-hamburguer-left-right-1.html)
