@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Center Elements</title>
+	
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html,
+		body {
+			height: 100%;
+		}
+
+		nav ul, nav ul li {
+			display: block;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+
+		.rosa { background-color: pink; }
+		.verde { background-color: green; }
+		.vermelho { background-color: red; }
+		.text-center { text-align: center; }
+
+		.box {
+			height: 100%;
+			margin-bottom: 15px;
+			background-color: #F2F6F9;
+		}
+
+
+		.separador {
+			display: inline-block;
+			margin: 10px 0;
+			border: none;
+		}
+
+		.container {
+			margin: 0 auto;
+			width: 80%;
+		}
+
+		/* item 2.1  */
+		.container-block {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+			background-color: #aaa;
+		}
+
+		.container-block > .item {
+			display: inline-block;
+			margin-right: -5px;
+			border: 3px solid #900;
+		}
+
+		/* item 2.2  */
+		.container-flex {
+			display: flex;
+			justify-content: center;
+			margin: 0 auto;
+			width: 80%;
+			background-color: #aaa;
+		}
+
+		.container-flex > .item {
+			border: 3px solid #900;
+		}
+
+		/* item 3.1  */
+		.menu-list {
+			display: inline-block;
+			margin-right: -4px;
+		}
+
+		.menu-list > .link {
+			display: block;
+			padding: 20px 40px;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #f7007b;
+		}
+
+		.menu-list > .link:hover {
+			background-color: orange;
+		}
+
+		/* item 4.1  */
+		.text-altura-conhecida {
+			background-color: orange;
+			height: 150px;
+			line-height: 150px;
+		}
+
+		/* item 4.2 */
+		.text-altura-desconhecida {
+			display: table;
+			height: 150px;
+			background-color: pink;
+		}
+
+		.text-altura-desconhecida > .table {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		/* item 4.3 */
+		.flex-text-altura-desconhecida {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			width: 80%;
+			height: 150px;
+			margin: 0 auto;
+			background-color: green;
+		}
+
+		/* item 5.1 */
+		.position {
+			position: relative;
+			width: 80%;
+			height: 150px;
+		}
+
+		.box-altura-conhecida {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -25px;
+			margin-left: -200px;
+			width: 400px;
+			height: 50px;
+			background-color: red;
+		}
+
+		/* item 5.2 */
+		.box-altura-desconhecida {
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			background-color: green;
+			transform: translate(50%, 50%);
+		}		
+	</style>
+
+</head>
+<body>
+	
+	<!-- item 1 -->
+	<section class="box">
+
+		<!-- item 1.1 -->
+		<h1 class="text-center rosa">Centralizar elemento display block</h1>
+		
+		<!-- item 1.2 -->
+		<div class="text-center">
+			<span class="verde">Centralizar elemento display inline-block</span>
+		</div>
+
+		<!-- item 1.3 -->
+		<div class="container vermelho">&nbsp;</div>
+	</section>
+
+	<!-- item 2 -->
+	<section class="box">
+
+		<!-- item 2.1 -->
+		<div class="container-block">
+			<div class="item">Elemento display inline-block</div>
+			<div class="item">Elemento display inline-block</div>
+			<div class="item">Elemento display inline-block</div>
+		</div>
+
+		<hr class="separador">
+
+		<!-- item 2.2 -->
+		<div class="container-flex">
+			<div class="item">Elemento com flexbox</div>
+			<div class="item">Elemento com flexbox</div>
+			<div class="item">Elemento com flexbox</div>
+		</div>		
+	</section>	
+
+	<!-- item 3 -->
+	<section class="box">
+
+		<!-- item 3.1 -->
+		<nav class="text-center">
+			<ul>
+				<li class="menu-list"><a class="link" href="javascript:;">link 2</a></li>
+				<li class="menu-list"><a class="link" href="javascript:;">link 3</a></li>
+				<li class="menu-list"><a class="link" href="javascript:;">link 4</a></li>
+				<li class="menu-list"><a class="link" href="javascript:;">link 5</a></li>
+			</ul>
+		</nav>
+	</section>	
+
+	<!-- item 4 -->
+	<section class="box">	
+
+		<!-- item 4.1 -->
+		<div class="container text-altura-conhecida">
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur.</p>
+		</div>
+
+		<hr class="separador">
+
+		<!-- item 4.2 -->
+		<div class="container text-altura-desconhecida">
+			<div class="table">
+				<p class="text-center">Exemplo com display table.</p>			
+				<p class="text-center">Exemplo com display table.</p>			
+				<p class="text-center">Exemplo com display table.</p>			
+			</div>
+		</div>
+
+		<hr class="separador">
+
+		<!-- item 4.3 -->
+		<div class="flex-text-altura-desconhecida">
+			<div class="table">
+				<p class="text-center">Exemplo com flexbox.</p>			
+				<p class="text-center">Exemplo com flexbox.</p>			
+				<p class="text-center">Exemplo com flexbox.</p>			
+			</div>
+		</div>		
+	</section>
+
+	<!-- item 5 -->
+	<section class="box">
+
+		<!-- item 5.1 -->
+		<div class="container position">
+			<div class="box-altura-conhecida">
+				<p>Exemplo com position</p>
+			</div>
+		</div>
+
+		<hr class="separador">
+
+		<!-- item 5.2 -->
+		<div class="container position">
+			<div class="box-altura-desconhecida">
+				<p>Exemplo com position</p>
+			</div>
+		</div>		
+	</section>	
+
+	<!-- item 6 -->
+	<section class="box">
+
+		<!-- item 6.1 -->
+		<div class="text-center">
+			<img class="thumb" src="http://hammerjs.github.io/assets/img/github-icon.png" alt="GitHub">
+			<p>Elemento display block</p>
+			<span>Elemento display inline-block</span>	
+		</div>
+	</section>	
+</body>
+</html>

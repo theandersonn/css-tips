@@ -7,6 +7,9 @@
 - [Alinhamento vertical com altura fixa](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-fixo.html)
 - [Alinhamento vertical com Flexbox](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-vertical-com-fexbox.html)
 
+### Alinhamento Horizontal
+- [Alinhamento Horizontal](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-horizontal.html)
+
 ### Arrow(s)
 - [Arrow Down](https://github.com/theandersonn/css-tips/blob/master/tips/arrow-down.html)
 
