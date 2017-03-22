@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Título com underline</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.title.-center {
+		  text-align: center;
+		}
+
+		.title::after {
+		    margin-top: 2px;
+		    position: relative;
+		    display: block;
+		    content: "";
+		    height: 3px;
+		    width: 50px;
+		    background: orange;
+		}
+		
+		.title.-center::after {
+		  margin: 2px auto 0 auto;
+		}		
+	</style>
+</head>
+<body>
+	<h1 class="title">Lorem ipsum dolor sit amet</h1>
+	<h1 class="title -center">Lorem ipsum dolor sit amet</h1>	
+</body>
+</html>
