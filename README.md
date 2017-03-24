@@ -32,5 +32,8 @@
 - Footer sempre bottom 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/footer-sempre-bottom-1.html)
 - Footer sempre bottom 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-2.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/footer-sempre-bottom-2.html)
 
+### Thumb
+- Thumb com background hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-com-bg-hover.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/thumb-com-bg-hover.html)
+
 ### Título
 - Título com underline -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-underline.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/titulo-com-underline.html)
