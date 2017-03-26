@@ -37,6 +37,7 @@
 
 ### Thumb
 - Thumb com background hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-com-bg-hover.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/thumb-com-bg-hover.html)
+- Thumb expande com hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-expande-hover.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/thumb-expande-hover.html)
 
 ### Título
 - Título com underline -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-underline.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/titulo-com-underline.html)
