@@ -14,7 +14,7 @@
 - Arrow Down -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/arrow-down.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/arrow-down.html)
 
 ### Botões
-- Efeitos botões
+- Botão com background animado -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/botao-background-animado.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/botao-background-animado.html)
 
 ### Box
 - Box na Diagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/box-na-diagonal.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/box-na-diagonal.html)

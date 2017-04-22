@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Botão com Background Animado</title>
+
+	<style>
+		*{
+			margin: 0;
+			padding: 0;		
+		}
+
+		html {
+			font-size: 62.5%;
+		}
+
+		body {
+			font-size: 1.6rem;
+			line-height: 1.6;
+			background-color: #ecf0f1;
+		}	
+
+		.btn {
+			position: relative;
+			display: inline-block;
+			box-sizing: border-box;
+			height: 3.8rem;
+			border: .2rem solid #8e44ad;
+			border-radius: .2rem;
+			padding: 0 3rem;
+			overflow: hidden;
+			color: #555;
+			font-size: 1.4rem;
+			font-weight: 700;
+			line-height: 3.8rem;
+			text-align: center;
+			text-decoration: none; 
+			transition: color .15s .15s;
+		}
+
+		.-top:after {
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+    		bottom: 0;
+    		left: 0;	
+    		-webkit-transform: translateY(105%);
+    		transform: translateY(105%);
+       	 	transition: transform .3s;
+    		z-index: -1;				
+    		content: "";
+			background: #8e44ad;
+		}
+
+		.-top:focus,
+		.-top:hover {
+		    color: #fff
+		}
+
+		.-top:focus:after,
+		.-top:hover:after {
+		    -webkit-transform: translateY(0);
+		    transform: translateY(0)
+		}
+
+		.-right:after {
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+    		bottom: 0;
+    		left: 0;	
+    		-webkit-transform: translateX(105%);
+    		transform: translateX(105%);
+       	 	transition: transform .3s;
+    		z-index: -1;				
+    		content: "";
+			background: #8e44ad;
+		}
+
+		.-right:focus,
+		.-right:hover {
+		    color: #fff
+		}
+
+		.-right:focus:after,
+		.-right:hover:after {
+		    -webkit-transform: translateX(0);
+		    transform: translateX(0)
+		}		
+	</style>	
+
+</head>
+<body>
+	<a href="javascript:;"  class="btn -top">
+		Exemplo
+	</a>
+
+	<a href="javascript:;"  class="btn -right">
+		Exemplo
+	</a>		
+</body>
+</html>
