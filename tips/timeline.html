@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timeline</title>
+
+	<style>
+		*,
+		*:before,
+		*:after {
+		  -webkit-box-sizing: border-box;
+		     -moz-box-sizing: border-box;
+		          box-sizing: border-box;
+		}
+
+		.clearfix:after {
+		    content: '';
+		    display: block;
+		    clear: both;
+		}		
+
+		*{
+			margin: 0;
+			padding: 0;
+		}		
+
+		body,html{
+			height: 100%;
+		}
+
+		.timeline-box {
+			margin: 0 auto;
+			width: 768px;
+			height: 100%;
+			background: url(timeline-bg.png)repeat-y 50% top;
+		}
+
+		.box-content {
+			margin-bottom: 30px;
+			padding: 10px;
+			width: 300px;
+			border: 1px solid orange;
+		}
+
+		.timeline-box .box-line:nth-child(odd) .box-content {
+			float: right;
+		}
+
+		.box-line {
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			margin-bottom: 50px;
+		}				
+
+		.box-circle {
+			position: absolute;
+			right: 50%;
+			margin-right: -50px;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background-color: orange;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="timeline-box">
+		<section class="box-line clearfix">
+			<div class="box-circle">
+				1
+			</div>	
+
+			<div class="box-content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi saepe earum porro accusamus, asperiores et at suscipit necessitatibus voluptatum dolorum autem corporis a, voluptas architecto harum dolor expedita aliquam.
+			</div>				
+		</section>	
+
+		<section class="box-line clearfix">
+			<div class="box-circle">
+				2
+			</div>	
+
+			<div class="box-content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi saepe earum porro accusamus, asperiores et at suscipit necessitatibus voluptatum dolorum autem corporis a, voluptas architecto harum dolor expedita aliquam.
+			</div>				
+		</section>
+
+		<section class="box-line clearfix">
+			<div class="box-circle">
+				3
+			</div>	
+
+			<div class="box-content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi saepe earum porro accusamus, asperiores et at suscipit necessitatibus voluptatum dolorum autem corporis a, voluptas architecto harum dolor expedita aliquam.
+			</div>				
+		</section>	
+
+		<section class="box-line clearfix">
+			<div class="box-circle">
+				4
+			</div>	
+
+			<div class="box-content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi saepe earum porro accusamus, asperiores et at suscipit necessitatibus voluptatum dolorum autem corporis a, voluptas architecto harum dolor expedita aliquam.
+			</div>				
+		</section>								
+	</div>
+</body>
+</html>
