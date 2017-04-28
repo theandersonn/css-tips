@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hover rotate</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}	
+
+		body {
+			background-color: #ecf0f1;
+			text-align: center;
+		}		
+
+		.circle {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background-color: #8e44ad;
+			border-radius: 50%;
+		}
+
+		.circle:hover .icon {
+    		-webkit-transform: rotate(360deg);
+    			-ms-transform: rotate(360deg);
+    				transform: rotate(360deg);
+		}
+
+		.icon {
+			color: #fff;
+			line-height: 100px;
+			font-size: 50px;
+			transition: all 0.5s;
+		}
+	</style>
+</head>
+<body>
+	<span class="circle">
+		<a href="javascript:;">
+			<i class="fa fa-wordpress icon"></i>
+		</a>
+	</span>
+	
+	<span class="circle">
+		<a href="javascript:;">
+			<i class="fa fa-linux icon"></i>
+		</a>
+	</span>
+
+	<span class="circle">
+		<a href="javascript:;">
+			<i class="fa fa-github icon"></i>
+		</a>
+	</span>		
+</body>
+</html>
+
