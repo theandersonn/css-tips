@@ -15,7 +15,7 @@
 
 ### Botões
 - Botão com background animado -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/botao-background-animado.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/botao-background-animado.html)
-- Hover  rotate -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/hover-rotate.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/hover-rotate)
+- Hover rotate -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/rotate-hover.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/rotate-hover.html)
 
 ### Box
 - Box na Diagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/box-na-diagonal.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/box-na-diagonal.html)
