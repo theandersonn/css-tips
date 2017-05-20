@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Seção com background diagonal</title>
+
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;			
+			}
+
+			html,body {
+				height: 100%;
+			}
+
+			.section {
+				width: 100%;
+				height: 100%;
+			}
+
+			.base-bg1 { background: url('images/pattern1.jpg'); }
+			.base-bg2 { background: url('images/pattern2.jpg'); }		
+
+			.content-bg1 { background: linear-gradient(to right bottom, transparent 50%, #16BBAC 50%); }
+			.content-bg2 { background: linear-gradient(to right bottom, #16BBAC 50%, transparent 50%); }
+		</style>
+	</head>
+	
+	<body>
+		<section class="section base-bg1">
+			<section class="section content-bg1">
+				
+			</section>
+		</section>
+
+		<section class="section base-bg2">
+			<section class="section content-bg2">
+				
+			</section>
+		</section>
+	</body>
+</html>

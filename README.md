@@ -32,6 +32,11 @@
 ### Progress Bar
 - Progress Bar 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/progress-bar-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/progress-bar-1.html)
 
+### Seção
+- Seção com background na ddiagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/secao-background-diagonal-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/secao-background-diagonal-1.html)
+- Combinando Seções com background na ddiagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/secao-background-diagonal-2.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/secao-background-diagonal-2.html)
+
+
 ### Underline Animado
 - Underline Animado 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/underline-animado-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/underline-animado-1.html)
 
