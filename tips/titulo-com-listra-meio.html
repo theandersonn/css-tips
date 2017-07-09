@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Título com listra no meio</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 992px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.titulo {
+			position: relative;
+			font-size: 30px;
+			color: orange
+		}
+
+		.titulo:before,
+		.titulo:after {
+			position: absolute;
+	    	width: 30%;
+	    	height: 2px;		
+			content: "";
+	    	background: orange;		
+		}			
+
+		.titulo:before {
+			top: 19px;
+			left: 0;
+		}
+
+		.titulo:after {
+			top: 19px;
+			right: 0;
+		}		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 class="titulo">Lorem ipsum dolor sit amet</h1>
+	</div>
+</body>
+</html>
