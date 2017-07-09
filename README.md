@@ -26,6 +26,9 @@
 ### Flip Image
 - Flip Image -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/flip-image.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/flip-image.html)
 
+### Imagem com efeito blur
+- Imagem com efeito blur -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/imagem-com-efeito-blur.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/imagem-com-efeito-blur.html)
+
 ### Logo centralizada
 - Logo Centralizada -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/logo-centralizada.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/logo-centralizada.html)
 

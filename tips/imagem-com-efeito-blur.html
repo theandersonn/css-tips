@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Imagem com Efeito Blur</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.img-blur {
+			filter: blur(6px);
+		}	
+
+		.img-blur:hover {
+			filter: blur(0);
+			transition: 0.4s ease-in-out;
+		}
+	</style>
+</head>
+<body>
+	<img src="http://lorempixel.com/768/400/sports/" class="img-blur">
+</body>
+</html>
