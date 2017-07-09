@@ -32,8 +32,8 @@
 ### Logo centralizada
 - Logo Centralizada -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/logo-centralizada.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/logo-centralizada.html)
 
-### Progress Bar
-- Progress Bar 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/progress-bar-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/progress-bar-1.html)
+### Barra de Progresso
+- Step Progress Bar 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/step-progress-bar-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/step-progress-bar-1.html)
 
 ### Seção
 - Seção com background na ddiagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/secao-background-diagonal-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/secao-background-diagonal-1.html)
