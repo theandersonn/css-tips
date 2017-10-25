@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Arrows: Top - Right - Bottom - Left</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			text-align: center;
+			padding-top: 100px;
+		}
+
+		.container { display: inline-block; }
+
+		.box {
+			display: inline-block;
+			padding: 15px;
+  			position: relative;
+  			width: 100px;
+  			height: 100px; 
+  			text-align: center;
+  			color: white;
+  			background-color: #c0392b;
+		}
+
+		/*general top and bottom*/
+		.arrow-top:after,
+		.arrow-bottom:after {
+			content: '';
+			position: absolute;
+	   		left: 50%;
+	   		width: 0;
+	   		height: 0;
+	   		margin-left: -16px;
+    		border: 16px solid;		
+		}
+
+		/*singular top*/
+		.arrow-top:after {
+	   		top: -32px;
+	   		border-color: transparent transparent #c0392b transparent;
+		}
+
+		/*singlular bottom*/
+		.arrow-bottom:after {
+	   		bottom: -32px;
+	   		border-color: #c0392b transparent transparent;
+		}
+
+		/*general right and left*/
+		.arrow-right:before,
+		.arrow-left:before {
+	   		content: '';
+	   		position: absolute;
+			top: 50%;
+			margin-top: -16px;
+	   		width: 0;
+	   		height: 0;
+    		border: 16px solid;			
+		}
+
+		/*singular right*/
+		.arrow-right:before {
+	   		right: -32px;
+	   		border-color: transparent transparent transparent #c0392b;
+		}				
+
+		/*singular left*/
+		.arrow-left:before {
+	   		left: -32px;
+	   		border-color: transparent #c0392b transparent transparent;
+		}		
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box arrow-left">
+			<p>arrow left</p>
+		</div>
+
+		<div class="box arrow-top">
+			<p>arrow top</p>
+		</div>	
+
+		<div class="box arrow-bottom">
+			<p>arrow bottom</p>
+		</div>		
+
+		<div class="box arrow-right">
+			<p>arrow right</p>
+		</div>		
+	</div>
+</body>
+</html>

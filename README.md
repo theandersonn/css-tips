@@ -10,8 +10,8 @@
 ### Alinhamento Horizontal
 - Alinhamento Horizontal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/alinhamento-horizontal.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/alinhamento-horizontal.html)
 
-### Arrow(s)
-- Arrow Down -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/arrow-down.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/arrow-down.html)
+### Arrows
+- Arrows: Top - Right - Bottom - Left -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/arrows.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/arrows.html)
 
 ### Botões
 - Botão com background animado -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/botao-background-animado.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/botao-background-animado.html)
