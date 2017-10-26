@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title bottom border</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		div {
+			text-align: center;
+			margin-bottom: 30px; 
+		}
+
+		h1 { display: inline-block; }
+
+		.border-left::after,
+		.border-center::after,
+		.border-right::after {
+			margin-top: 2px;
+		    position: relative;
+		    display: block;
+		    content: "";
+		    height: 3px;
+		    width: 50px;
+		    background: orange;			
+		}
+
+		.border-left::after { margin-right: auto; }
+		.border-center::after { margin: 2px auto 0 auto; }
+		.border-right::after { margin-left: auto; }			
+	</style>
+</head>
+<body>
+	<div><h1 class="border-left">Lorem ipsum dolor sit amet</h1></div>
+	<div><h1 class="border-center">Lorem ipsum dolor sit amet</h1></div>	
+	<div><h1 class="border-right">Lorem ipsum dolor sit amet</h1></div>	
+</body>
+</html>
+
+
