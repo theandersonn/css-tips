@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button</title>
+
+    <style>
+        html { 
+            box-sizing: border-box; 
+        }
+
+        body {
+            line-height: 1;			
+        }	
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        *, 
+        *:before, 
+        *:after { 
+            box-sizing: inherit; 
+        }
+
+        :focus {
+            outline: 0;
+        }  
+
+        .button {
+            display: inline-block;
+            background-color: #9b59b6;
+            border: 1px solid transparent;
+            color: #ecf0f1;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+        }  
+
+        .button.--small {
+            padding: 0 20px;            
+            line-height: 28px;
+        }
+
+        .button.--default {
+            padding: 0 30px;
+            line-height: 38px;
+        }
+
+        .button.--rounded {
+            border-radius: 20px;
+            /* border-top-right-radius: 10px; */
+            /* border-top-left-radius: 10px; */
+        }             
+        
+        .button.--big {
+            padding: 0 40px;
+            line-height: 48px;
+        }        
+    </style>    
+</head>
+<body>
+    <a class="button --small" href="javascript:;">button small</a>
+    <a class="button --default" href="javascript:;">button default</a>
+    <a class="button --default --rounded" href="javascript:;">button default</a>
+    <a class="button --big --rounded" href="javascript:;">button big</a>
+</body>
+</html>
