@@ -12,7 +12,8 @@
         }
 
         body {
-            line-height: 1;			
+            line-height: 1;	
+            background-color: #95a5a6;		
         }	
 
         *{
@@ -32,12 +33,12 @@
 
         .button {
             display: inline-block;
-            background-color: #9b59b6;
-            border: 1px solid transparent;
             color: #ecf0f1;
             font-size: 16px;
             text-align: center;
             text-decoration: none;
+            border: 1px solid transparent;
+            cursor: pointer;
         }  
 
         .button.--small {
@@ -45,27 +46,53 @@
             line-height: 28px;
         }
 
-        .button.--default {
+        .button.--standard {
             padding: 0 30px;
             line-height: 38px;
         }
 
+        .button.--primary {
+            background-color: #9b59b6;
+        }
+
+        .button.--transparent {
+            background-color: transparent;
+            border: 1px solid #9b59b6;
+        }
+
         .button.--rounded {
             border-radius: 20px;
-            /* border-top-right-radius: 10px; */
-            /* border-top-left-radius: 10px; */
         }             
         
         .button.--big {
-            padding: 0 40px;
-            line-height: 48px;
+            padding: 0 100px;
+            line-height: 68px;
+        } 
+
+        .button.--block {
+            display: block;
+            width: 100%;            
+        }  
+
+        /* hover */
+        .button:hover {
+            background-color: #8e44ad;
         }        
     </style>    
 </head>
 <body>
-    <a class="button --small" href="javascript:;">button small</a>
-    <a class="button --default" href="javascript:;">button default</a>
-    <a class="button --default --rounded" href="javascript:;">button default</a>
-    <a class="button --big --rounded" href="javascript:;">button big</a>
+
+    <div style="width: 100%; margin-bottom: 15px;">
+        <a class="button --primary --small" href="javascript:;">button small</a>
+        <a class="button --primary --standard" href="javascript:;">button standard</a>
+        <button class="button --primary --standard">button form</button>
+        <a class="button --transparent --standard" href="javascript:;">button transparent</a>
+        <a class="button --primary --standard --rounded" href="javascript:;">button rounded</a>
+        <a class="button --primary --big" href="javascript:;">button big</a>
+    </div>
+    
+    <div style="width: 100%;  margin-bottom: 15px;">
+        <a class="button --primary --standard --rounded --block" href="javascript:;">button block</a>
+    </div>
 </body>
 </html>

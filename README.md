@@ -13,7 +13,8 @@
 ### Arrows
 - Arrows: Top - Right - Bottom - Left -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/arrows.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/arrows.html)
 
-### Botões
+### Buttons
+- Buttons small, standard and big -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/buttons.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/buttons.html)
 - Botão com background animado -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/botao-background-animado.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/botao-background-animado.html)
 - Hover rotate -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/rotate-hover.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/rotate-hover.html)
 
