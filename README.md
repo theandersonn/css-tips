@@ -60,4 +60,4 @@
 
 ### Título
 - Título com listra no meio -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-listra-meio.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/titulo-com-listra-meio.html)
-- Título com underline -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-underline.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/titulo-com-underline.html)
+- Title bottom border -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/title-bottom-border.html) | [Preview](http://htmlpreview.github.io/?https://github.com/theandersonn/css-tips/blob/master/tips/title-bottom-border.html)
