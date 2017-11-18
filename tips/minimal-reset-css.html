@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minimal Reset CSS</title>
+
+    <style>
+        /*reset*/
+        html { 
+            box-sizing: border-box; 
+        }
+
+        body {
+            line-height: 1;			
+        }	
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        *, 
+        *:before, 
+        *:after { 
+            box-sizing: inherit; 
+        }
+
+        :focus {
+            outline: 0;
+        }
+
+        /*typografy*/
+        html { 
+            font-size: 62.5%;
+        }
+
+        body { 
+            font-size: 1.6rem;
+            font-size: 16px;
+        }	
+
+        img {
+            /*remove border IE*/
+            border: 0;
+        }	
+
+        /*utilities*/
+        .clearfix:before,
+        .clearfix:after {
+            content: ""; 
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .list-unstyled {
+            list-style: none;
+            padding: 0;
+        }
+
+        .img-fluid {
+            display: block;
+            max-width: 100%;
+            height: auto;	
+        }    
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <h2>Consectetur adipisicing elit</h2>
+    <h3>Quidem similique non nobis</h3>
+    <h4>Pariatur at, dicta</h4>
+    <h5>Vitae facilis, ab maiores</h5>
+    <h6>Repudiandae molestias illum</h6>
+    
+    <hr />
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex recusandae beatae cum sequi vel, laborum distinctio. Necessitatibus
+        suscipit distinctio officia quaerat ex, veritatis provident, libero? Fuga, veniam soluta laudantium dolor.
+    </p>
+    
+    <hr />
+    
+    <a href="javascript:;">Exemplo de link</a>
+    
+    <ul class="list-unstyled">
+        <li>WordPress</li>
+        <li>GitHub</li>
+        <li>Linux</li>
+        <li>PHP</li>
+    </ul>
+    
+    <ol class="list-unstyled">
+        <li>Bootstratp</li>
+        <li>Foundation</li>
+        <li>Semantic UI</li>
+        <li>Bulma</li>
+    </ol>
+    
+    <form>
+        <fieldset>
+            <legend>cadastro</legend>
+    
+            <input type="text" placeholder="Texto aqui ..." />
+            <input type="email" placeholder="Texto aqui ..." />
+            <input type="number" placeholder="3" />
+            <input type="file" />
+            <input type="checkbox" name="checkbox" checked>
+            <label for="checkbox"> I have a bike</label>
+    
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+    
+    
+            <textarea rows="5" cols="30" placeholder="Texto aqui ..."></textarea>
+    
+            <button type="submit">Botão</button>
+        </fieldset>
+    </form>
+    
+    <caption> Grande tabela, saudades (not)</caption>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+            </tr>
+    
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+            </tr>
+    
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+            </tr>
+        </tbody>
+    
+        <tfooter>
+            <tr>
+                <th>Footer table</th>
+                <th>Footer table</th>
+            </tr>
+        </tfooter>
+    </table>
+    
+    <figure>
+        <img src="https://www.muralswallpaper.co.uk/app/uploads/black-marble-textures-square-400x400.jpg">
+        <figcaption>Wallpaper</figcaption>
+    </figure>
+    
+    <div style="background-color: pink;" class="clearfix">
+        <div style="float: left; width: 50%;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti recusandae fugit nam sed nobis nostrum odit non ipsa maiores,
+            numquam cumque accusantium eum sint beatae quod omnis, dignissimos iure natus?
+        </div>
+    
+        <div style="float: right; width: 50%;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti recusandae fugit nam sed nobis nostrum odit non ipsa maiores,
+            numquam cumque accusantium eum sint beatae quod omnis, dignissimos iure natus?
+        </div>
+    </div>
+    
+    <section>
+        <article>
+            <header>
+                Esse é o header
+            </header>
+    
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor facere quas explicabo suscipit itaque laboriosam quibusdam
+                aut non, id accusantium a et cupiditate, totam corrupti consequuntur voluptates reprehenderit officia tempora.
+            </div>
+    
+            <footer>
+                Esse é o fotter
+            </footer>
+        </article>
+    
+        <article>
+            <header>
+                Esse é o header
+            </header>
+    
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor facere quas explicabo suscipit itaque laboriosam quibusdam
+                aut non, id accusantium a et cupiditate, totam corrupti consequuntur voluptates reprehenderit officia tempora.
+            </div>
+    
+            <footer>
+                Esse é o fotter
+            </footer>
+        </article>
+    </section>
+    
+    <header>
+        <nav>
+            <span>link 1</span>
+            <span>link 2</span>
+            <span>link 3</span>
+            <span>link 4</span>
+        </nav>
+    </header>
+</body>
+</html>
