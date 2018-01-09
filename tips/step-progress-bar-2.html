@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Progress Bar 2</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            // height: 80px;
+        }
+
+        .nav {
+            padding: 10px 0;
+            margin-bottom: 0;
+            @include clearfix();
+            @extend .list-unstyled;    
+
+            &__item {
+                position: relative;
+                float: left;
+                width: 25%;
+                text-align: center;
+                color: #c6c6c6;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 18px;
+                    left: -50%;
+                    z-index: -1;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #ddd;
+                }
+
+                &:first-child {
+                    &:after { content: none; }
+                }
+            }
+
+            &__circle {
+                margin: 0 auto;
+                width: 36px;
+                height: 36px;
+                border: 1px solid #ddd;
+                border-radius: 50%;
+                line-height: 36px;
+                background-color: #fff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+	Step progress bar Tutorial, CSS
+	https://www.youtube.com/watch?v=DYevj6UGNWA
+	-->
+
+    <!-- MENU -->
+    <nav class="menu">
+        <ul class="nav">
+            <li class="nav__item"><div class="nav__circle">01</div>O Hábito</li>
+            <li class="nav__item"><div class="nav__circle">02</div>O Perfil</li>
+            <li class="nav__item"><div class="nav__circle">03</div>Os Reviews</li>
+            <li class="nav__item"><div class="nav__circle">04</div>A Relação do Canal</li>
+        </ul>
+    </nav>
+    <!--// MENU -->
+
+</body>
+
+</html>
