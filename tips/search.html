@@ -4,20 +4,63 @@
 	<meta charset="UTF-8">
 	<title>Search</title>
 
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 	<style>
 		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
-		}		
+		}
+
+		.container {
+			width: 100%;
+			max-width: 432px;
+			margin: 0 auto;
+		}	
+
+		.search__box {
+			display: inline-block;
+			width: 100%;
+			background-color: #ecf0f1;
+			margin: 15px 0 25px 0;
+		}				
+
+		.search__box.--rounded {
+			border-radius: 30px;
+		}
+		
+		.search__input {
+			width: 85%;
+			background-color: transparent;
+			border: none;
+			padding: 22px 15px;
+			font-size: 18px;
+		}				
+		
+		.search__btn {
+			width: 13%;
+			border: none;
+			background-color: transparent;
+			cursor: pointer;
+		}				
 	</style>
 </head>
 <body>
-	<form class="search__container" method="" action="">
-		<input class="search__input" type="text" name="" placeholder="Pesquisar...">
-		<button class="search__btn" type="submit">
-			<i class="fa fa-search" aria-hidden="true"></i>
-		</button>
-	</form>
+	<div class="container">
+		<form class="search__box" method="" action="">
+			<input class="search__input" type="text" name="s" placeholder="Procurar...">
+			<button class="search__btn" type="submit">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+		</form>
+		
+		<form class="search__box --rounded" method="" action="">
+			<input class="search__input" type="text" name="s" placeholder="Procurar...">
+			<button class="search__btn" type="submit">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+		</form>
+	</div>
 </body>
 </html>
