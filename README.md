@@ -53,6 +53,9 @@
 - Seção com background na ddiagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/secao-background-diagonal-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/secao-background-diagonal-1.html)
 - Combinando Seções com background na ddiagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/secao-background-diagonal-2.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/secao-background-diagonal-2.html)
 
+### Search
+- Search -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/search.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/search.html)
+
 
 ### Underline Animado
 - Underline Animado 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/underline-animado-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/underline-animado-1.html)
