@@ -39,6 +39,11 @@
 ### Progress Bar
 - Progress Bar -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/progress-bar.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/progress-bar.html)
 
+### Recent Posts
+- Recent Posts with float -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/recent-posts__float.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/recent-posts__float.html)
+
+- Recent Posts with fllex -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/recent-posts__flex.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/recent-posts__flex.html)
+
 ### Step Progress Bar
 - Step Progress Bar 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/step-progress-bar-1.html) | [Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/step-progress-bar-1.html)
 
