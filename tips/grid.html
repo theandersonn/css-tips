@@ -27,18 +27,23 @@
             box-sizing: inherit; 
         }
 
-        /* container */
         .container {
-            max-width: 1280px;
+            max-width: 1024px;
             margin-right: auto;
             margin-left: auto;
             padding-left: 15px;
             padding-right: 15px;
         }
 
+        @media(min-width: 1360px) {
+            .container {
+                max-width: 1280px;
+            }    
+        }
+
         .container:before,
         .container:after {
-            content: "";
+            content: " ";
             display: table;
         }
 
@@ -46,217 +51,74 @@
             clear: both;
         }
 
-        /* row */
         .row:after {
             content: " ";
             display: table;
             clear: both;
         }
 
-        /* col */
         .col {
             position: relative;
             min-height: 1px;
             float: left;
         }
 
+        .col.is-phone-1 { width: 8.333%; }
+        .col.is-phone-2 { width: 16.666%; }
+        .col.is-phone-3 { width: 25%; }
+        .col.is-phone-4 { width: 33.333%; }
+        .col.is-phone-5 { width: 41.666%; }
+        .col.is-phone-6 { width: 50%; }
+        .col.is-phone-7 { width: 58.333%; }
+        .col.is-phone-8 { width: 66.666%; }
+        .col.is-phone-9 { width: 75%; }
+        .col.is-phone-10 { width: 83.333%; }
+        .col.is-phone-11 { width: 91.666%; }
+        .col.is-phone-12 { width: 100%; }
+
         @media(min-width: 768px) {
             .col {
                 padding-left: 15px;
                 padding-right: 15px;
             }
-        }        
 
-        /* smartphone */
-        .col.--smart-1 { width: 8.333%; }
-        .col.--smart-2 { width: 16.666%; }
-        .col.--smart-3 { width: 25%; }
-        .col.--smart-4 { width: 33.333%; }
-        .col.--smart-5 { width: 41.666%; }
-        .col.--smart-6 { width: 50%; }
-        .col.--smart-7 { width: 58.333%; }
-        .col.--smart-8 { width: 66.666%; }
-        .col.--smart-9 { width: 75%; }
-        .col.--smart-10 { width: 83.333%; }
-        .col.--smart-11 { width: 91.666%; }
-        .col.--smart-12 { width: 100%; }
-
-        /* tablet */
-        @media (min-width: 768px) {
-            .col.--tablet-1 { width: 8.333%; }
-            .col.--tablet-2 { width: 16.666%; }
-            .col.--tablet-3 { width: 25%; }
-            .col.--tablet-4 { width: 33.333%; }
-            .col.--tablet-5 { width: 41.666%; }
-            .col.--tablet-6 { width: 50%; }
-            .col.--tablet-7 { width: 58.333%; }
-            .col.--tablet-8 { width: 66.666%; }
-            .col.--tablet-9 { width: 75%; }
-            .col.--tablet-10 { width: 83.333%; }
-            .col.--tablet-11 { width: 91.666%; }
-            .col.--tablet-12 { width: 100%; }
+            .col.is-tablet-1 { width: 8.333%; }
+            .col.is-tablet-2 { width: 16.666%; }
+            .col.is-tablet-3 { width: 25%; }
+            .col.is-tablet-4 { width: 33.333%; }
+            .col.is-tablet-5 { width: 41.666%; }
+            .col.is-tablet-6 { width: 50%; }
+            .col.is-tablet-7 { width: 58.333%; }
+            .col.is-tablet-8 { width: 66.666%; }
+            .col.is-tablet-9 { width: 75%; }
+            .col.is-tablet-10 { width: 83.333%; }
+            .col.is-tablet-11 { width: 91.666%; }
+            .col.is-tablet-12 { width: 100%; }    
         }
 
-        
-        /* desktop */
         @media (min-width: 1200px) {
             .row {
                 margin-left: -15px;
                 margin-right: -15px;
             }
 
-            .col.--desktop-1 { width: 8.333%; }
-            .col.--desktop-2 { width: 16.666%; }
-            .col.--desktop-3 { width: 25%; }
-            .col.--desktop-4 { width: 33.333%; }
-            .col.--desktop-5 { width: 41.666%; }
-            .col.--desktop-6 { width: 50%; }
-            .col.--desktop-7 { width: 58.333%; }
-            .col.--desktop-8 { width: 66.666%; }
-            .col.--desktop-9 { width: 75%; }
-            .col.--desktop-10 { width: 83.333%; }
-            .col.--desktop-11 { width: 91.666%; }
-            .col.--desktop-12 { width: 100%; }
+            .col.is-desk-1 { width: 8.333%; }
+            .col.is-desk-2 { width: 16.666%; }
+            .col.is-desk-3 { width: 25%; }
+            .col.is-desk-4 { width: 33.333%; }
+            .col.is-desk-5 { width: 41.666%; }
+            .col.is-desk-6 { width: 50%; }
+            .col.is-desk-7 { width: 58.333%; }
+            .col.is-desk-8 { width: 66.666%; }
+            .col.is-desk-9 { width: 75%; }
+            .col.is-desk-10 { width: 83.333%; }
+            .col.is-desk-11 { width: 91.666%; }
+            .col.is-desk-12 { width: 100%; }
         }
-
-        .test {
-            margin-bottom: 15px;
-            background-color: #eee;
-            text-align: center;
-        }            
+            
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col --smart-1 --tablet-1 --desktop-1">
-                <div class="test">1</div>
-            </div>
 
-            <div class="col --smart-11 --tablet-11 --desktop-11">
-                <div class="test">11</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-2 --tablet-2 --desktop-2">
-                <div class="test">2</div>
-            </div>
-
-            <div class="col --smart-10 --tablet-10 --desktop-10">
-                <div class="test">10</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-3 --tablet-3 --desktop-3">
-                <div class="test">3</div>
-            </div>
-
-            <div class="col --smart-9 --tablet-9 --desktop-9">
-                <div class="test">9</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-4 --tablet-4 --desktop-4">
-                <div class="test">4</div>
-            </div>
-
-            <div class="col --smart-8 --tablet-8 --desktop-8">
-                <div class="test">8</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-5 --tablet-5 --desktop-5">
-                <div class="test">5</div>
-            </div>
-
-            <div class="col --smart-7 --tablet-7 --desktop-7">
-                <div class="test">7</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-6 --tablet-6 --desktop-6">
-                <div class="test">6</div>
-            </div>
-
-            <div class="col --smart-6 --tablet-6 --desktop-6">
-                <div class="test">6</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-5 --tablet-5 --desktop-5">
-                <div class="test">5</div>
-            </div>
-
-            <div class="col --smart-7 --tablet-7 --desktop-7">
-                <div class="test">7</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-4 --tablet-4 --desktop-4">
-                <div class="test">4</div>
-            </div>
-
-            <div class="col --smart-8 --tablet-8 --desktop-8">
-                <div class="test">8</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-3 --tablet-3 --desktop-3">
-                <div class="test">3</div>
-            </div>
-
-            <div class="col --smart-9 --tablet-9 --desktop-9">
-                <div class="test">9</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-10 --tablet-10 --desktop-10">
-                <div class="test">10</div>
-            </div>
-
-            <div class="col --smart-2 --tablet-2 --desktop-2">
-                <div class="test">2</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-11 --tablet-11 --desktop-11">
-                <div class="test">11</div>
-            </div>
-
-            <div class="col --smart-1 --tablet-1 --desktop-1">
-                <div class="test">1</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-12 --tablet-12 --desktop-12">
-                <div class="test">12</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col --smart-4 --tablet-4 --desktop-4">
-                <div class="test">4</div>
-            </div>
-
-            <div class="col --smart-4 --tablet-4 --desktop-4">
-                <div class="test">4</div>
-            </div>
-
-            <div class="col --smart-4 --tablet-4 --desktop-4">
-                <div class="test">4</div>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
