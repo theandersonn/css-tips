@@ -17,6 +17,7 @@
 - Button small, standard and big -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/buttons.html) 
 - Botão com background animado -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/botao-background-animado.html) 
 - Hover rotate -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/rotate-hover.html) 
+- Scroll Down Animation -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/scroll-down-animation.html) 
 
 ### Box
 - Box na Diagonal -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/box-na-diagonal.html) 
