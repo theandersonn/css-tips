@@ -68,9 +68,11 @@
 - Minimal Reset CSS -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/minimal-reset-css.html) 
 
 ### Thumb
-- Thumb com background hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-com-bg-hover.html)
-- Thumb expande com hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-expande-hover.html)
-- Hexagon -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/hexagon.html)
+- Background over Image -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-bg-over-image.html)
+- Hexagon -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-hexagon.html)
+- View background on Hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-view-bg-on-hover.html)
+- Zoom on Hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-zoom-on-hover.html)
+
 ### Título
 - Título com listra no meio -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-listra-meio.html)
 - Title bottom border -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/title-bottom-border.html)
