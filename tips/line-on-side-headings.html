@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Line on side headings</title>
+
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+		    -webkit-box-sizing: border-box;
+		       -moz-box-sizing: border-box;
+		            box-sizing: border-box;		
+        } 
+        
+        body {
+            text-align: center;
+        }
+
+        .title {
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .line-on-side:before,
+        .line-on-side:after {
+            display: inline-block;
+            position: relative;
+            content: "";
+            vertical-align: middle;
+            height: 1px;
+            width: 50%;
+            background-color: #000;
+        }
+        
+        .line-on-side:before {
+            right: 0.5em;
+            margin-left: -50%;
+        }
+        
+        .line-on-side:after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title line-on-side">This is a longer heading</h2>
+</body>
+</html>

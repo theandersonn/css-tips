@@ -74,4 +74,5 @@
 - Zoom on Hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-zoom-on-hover.html)
 
 ### Title
+- Line on side Headings -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/line-on-side-headings.html)
 - Title bottom border -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/title-bottom-border.html)
