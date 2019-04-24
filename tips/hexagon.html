@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hexagon</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #126292;
+        }
+
+        .hexagon-box {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .hexagon {
+            width: 84px;
+            height: 92px;
+            background-color: #2a729d;
+            overflow: hidden;
+            visibility: hidden;
+
+            transform: rotate(120deg);
+            -moz-transform: rotate(120deg);
+            -ms-transform: rotate(120deg);
+            -o-transform: rotate(120deg);
+            -webkit-transform: rotate(120deg);            
+        }
+
+        .hexagon-inside {
+            width: 100%;
+            height: 100%;
+            background-color: #2a729d;
+            overflow: hidden;
+            
+            transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            -webkit-transform: rotate(-60deg);            
+        }
+
+        .hexagon-image {
+            width: 100%;
+            height: 100%;   
+            
+            background-repeat: no-repeat;
+            background-size: cover;  
+            background-position: center center;
+            visibility: visible;
+
+            transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            -webkit-transform: rotate(-60deg);            
+        }
+
+        .hexagon-shadow {
+            position: absolute;
+            top: 0;
+            left: -8px;
+            z-index: -1;
+            
+            width: 100px;
+            height: 92px;
+            
+            background-image: url('https://raw.githubusercontent.com/theandersonn/css-tips/master/tips/images/shadow-user.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }        
+    </style>
+</head>
+<body>
+
+    <div class="hexagon-box">
+        <div class="hexagon">
+            <div class="hexagon-inside">
+                <div class="hexagon-image" style="background-image: url('https://www.fillmurray.com/400/400');"></div>
+            </div>
+        </div>
+        <div class="hexagon-shadow"></div>
+    </div>    
+
+</body>
+</html>
