@@ -73,6 +73,5 @@
 - View background on Hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-view-bg-on-hover.html)
 - Zoom on Hover -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/thumb-zoom-on-hover.html)
 
-### Título
-- Título com listra no meio -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/titulo-com-listra-meio.html)
+### Title
 - Title bottom border -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/title-bottom-border.html)
