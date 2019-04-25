@@ -60,8 +60,9 @@
 - Underline Animado 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/underline-animado-1.html) 
 
 ### Footer
-- Footer sempre bottom 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-1.html) 
-- Footer sempre bottom 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-sempre-bottom-2.html) 
+- Footer ever bottom 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-1.html) 
+- Footer ever bottom 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-2.html) 
+- Footer ever bottom 3 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-3.html) 
 
 ### Reset
 - Font Size com REM -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/font-size-com-rem.html) 
