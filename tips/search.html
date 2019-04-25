@@ -25,10 +25,6 @@
 			background-color: #ecf0f1;
 			margin: 15px 0 25px 0;
 		}				
-
-		.search__box.--rounded {
-			border-radius: 30px;
-		}
 		
 		.search__input {
 			width: 85%;
@@ -43,7 +39,11 @@
 			border: none;
 			background-color: transparent;
 			cursor: pointer;
-		}				
+		}
+		
+		.search--rounded {
+			border-radius: 30px;
+		}		
 	</style>
 </head>
 <body>
@@ -55,7 +55,7 @@
 			</button>
 		</form>
 		
-		<form class="search__box --rounded" method="" action="">
+		<form class="search__box search--rounded" method="" action="">
 			<input class="search__input" type="text" name="s" placeholder="Procurar...">
 			<button class="search__btn" type="submit">
 				<i class="fa fa-search" aria-hidden="true"></i>
@@ -63,4 +63,4 @@
 		</form>
 	</div>
 </body>
-</html>
+</html> 
