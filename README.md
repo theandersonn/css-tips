@@ -46,7 +46,6 @@
 
 ### Step Progress Bar
 - Step Progress Bar 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/step-progress-bar-1.html) 
-
 - Step Progress Bar 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/step-progress-bar-2.html) 
 
 ### Seção
@@ -56,13 +55,14 @@
 ### Search
 - Search -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/search.html) 
 
-### Underline Animado
-- Underline Animado 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/underline-animado-1.html) 
-
 ### Footer
 - Footer ever bottom 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-1.html) 
 - Footer ever bottom 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-2.html) 
 - Footer ever bottom 3 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/footer-ever-bottom-3.html) 
+
+### Link effects
+- Animated underline hover 1 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/animated-underline-hover-1.html) 
+- Animated underline hover 2 -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/animated-underline-hover-2.html)
 
 ### Reset
 - Font Size com REM -> [Code](https://github.com/theandersonn/css-tips/blob/master/tips/font-size-com-rem.html) 
